@@ -77,14 +77,12 @@ button:hover {
                     0 16px 40px 0 rgba(95, 70, 70, 0.2)
     }
     img{
-        width: 200px;
-        height: 80px;
-        margin-bottom: 0.5rem;
-        
+       object-fit: cover;
       }
       .center{
         display: inline-flex;
-        margin-left: 2rem;
+        width: 100%;
+        object-fit: cover;
       }
     
     .input-text{
